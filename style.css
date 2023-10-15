@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+#navlogo{
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+#navlogo h3{
+    margin-top: 20px;
+    font-size: 2.2rem;
+    font-weight: 602;
+    padding: 20px 147px;
+    color: #3D589F;
+}
+#navlinks{
+    position: absolute;
+    top: 1%;
+    display: flex;
+    margin: 25px 720px;
+}
+#navlinks a{
+    margin-right: 60px;
+    color: #3D589F;
+    text-decoration: none;
+}
+#article{
+    margin-top: 8%;
+    padding: 50px;
+    width: 46%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#article #content h1{
+    width: 100%;
+    letter-spacing: 3px;
+    color: #3D589F;
+    font-size: 4.47rem;
+}
+#article #content h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #F3598F;
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+#article #content p{
+    color: #3D589F;
+    line-height: 19px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+#article #buttons #login{
+    padding: 4px 38px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: #F3598F;
+    color: #fff;
+    font-size: medium;
+    font-weight: 700;
+}
+#article #buttons #read{
+    padding: 4px 28px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: transparent;
+    color: #3D589F;
+    font-size: medium;
+    font-weight: 700;
+}
+#aside{
+    position: absolute;
+    top: -26%;
+    right: -2%;
+    margin-top: 10%;
+}
+#aside img{
+    height: 795px;
+    width: 790px;
+}
